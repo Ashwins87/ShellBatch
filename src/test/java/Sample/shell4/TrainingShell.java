@@ -28,7 +28,7 @@ public class TrainingShell {
 		System.out.println("Connectivity is good");
 	}
 	
-	@After
+	@After//AfterTest
 	public void teardown()
 	{
 		System.out.println("clear the cache");
